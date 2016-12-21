@@ -1,0 +1,21 @@
+﻿@{
+    string[] cc = ViewData["_arr"] as string[];
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <div>
+        @foreach (string a in cc)
+            {
+            <div>@a</div> 
+            }
+    </div>
+</body>
+</html>
+

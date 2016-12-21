@@ -1,0 +1,22 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>View1</title>
+</head>
+<body>
+    <div>
+        <form method="post" action="/Home/GetqueryStr">
+            Name:<input type="text" id="name" name="name"/>
+            list:<input type="text" id="list" name="list">
+            <input type="submit" id="submit" name="submit" value="Submit"/>
+        </form>
+        <a href="/Home/GetqueryStr?namecc=cc&age=90&list=1,2,3,4,5,6,78">超链接测试</a>
+    </div>
+</body>
+</html>
